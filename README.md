@@ -23,7 +23,7 @@ ln -s ~/path/to/this/repo/.vimrc ~/.vimrc
 
 # Install Github Copilot plugin 
 
-(Copilot in Github)[https://github.com/github/copilot.vim]
+[Copilot in Github](https://github.com/github/copilot.vim)
 
 ```bash
 git clone --depth=1 https://github.com/github/copilot.vim.git \
@@ -35,7 +35,7 @@ git clone --depth=1 https://github.com/github/copilot.vim.git \
 Fugitive is a Git wrapper for Vim, allowing you to run Git commands.
 Works fine, but I'm currently not using it much.
 
-(Fugitive in Github)[https://github.com/tpope/vim-fugitive]
+[Fugitive in Github](https://github.com/tpope/vim-fugitive)
 
 ```bash
 mkdir -p ~/.vim/pack/tpope/start
