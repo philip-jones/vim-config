@@ -1,6 +1,14 @@
 # vim-config
 vim set up how I like it, to make it usable as an IDE.
 
+Selfishly, I'm only considering this for use within a Linux
+environment, however I am linking to the relevant documentation
+for each plug etc which should provide the relevant information
+to use this in other contexts.
+
+The .vimrc file is very much set up for Linux and may be largely
+useless outside this context.
+
 # Symlink to the .vimrc file in this git repository
 
 To allow you to check out this repository in a sensible
@@ -13,8 +21,21 @@ cd
 ln -s ~/path/to/this/repo/.vimrc ~/.vimrc
 ```
 
+# Install Github Copilot plugin 
 
-# Install Vim plugin "fugitive".
+(Copilot in Github)[https://github.com/github/copilot.vim]
+
+```bash
+git clone --depth=1 https://github.com/github/copilot.vim.git \
+  ~/.vim/pack/github/start/copilot.vim
+```
+
+# Install Vim / Git plugin "fugitive".
+
+Fugitive is a Git wrapper for Vim, allowing you to run Git commands.
+Works fine, but I'm currently not using it much.
+
+(Fugitive in Github)[https://github.com/tpope/vim-fugitive]
 
 ```bash
 mkdir -p ~/.vim/pack/tpope/start
