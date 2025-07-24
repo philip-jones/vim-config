@@ -42,7 +42,11 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set fileformat=unix
-set ttymouse=xterm2
+" In a pure linux environment:
+" set ttymouse=xterm2
+"
+" In ubuntu running on WSL:
+set ttymouse=sgr
 set mouse=n
 
 au BufNewFile,BufRead *.py
@@ -80,6 +84,7 @@ if has('gui_running')
   set background=dark
   colorscheme solarized
 else
+  set background=dark
   colorscheme zenburn
 endif
 
