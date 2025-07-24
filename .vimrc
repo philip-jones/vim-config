@@ -43,7 +43,8 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set fileformat=unix
-set ttymouse=xterm2
+" set ttymouse=xterm2
+set ttymouse=sgr
 set mouse=n
 
 au BufNewFile,BufRead *.py:
