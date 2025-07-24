@@ -14,6 +14,12 @@ taken from the RealPython article:
 
 [VIM and Python - A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
 
+Some of the instructions below are taken directly from that article, to allow
+efficient setup on a new machine.
+
+
+
+
 # Symlink to the .vimrc file in this git repository
 
 To allow you to check out this repository in a sensible
@@ -25,6 +31,14 @@ for example:
 cd
 ln -s ~/path/to/this/repo/.vimrc ~/.vimrc
 ```
+
+# Install Vundle (Vim Plugin Manager)
+
+```bash
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+Then fire up vim and run the command `:PluginInstall` to install the plugins
 
 # Install Github Copilot plugin 
 
@@ -48,4 +62,12 @@ cd ~/.vim/pack/tpope/start
 git clone https://tpope.io/vim/fugitive.git
 vim -u NONE -c "helptags fugitive/doc" -c q
 
+```
+
+# To enable vim shortcuts in the terminal
+
+Edit the file `~/.inputrc` and add the following line:
+
+```bash
+set editing-mode vi
 ```
