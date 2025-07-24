@@ -9,6 +9,11 @@ to use this in other contexts.
 The .vimrc file is very much set up for Linux and may be largely
 useless outside this context.
 
+Credit where credit is due, most of this setup was inspired or 
+taken from the RealPython article:
+
+[VIM and Python - A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
+
 # Symlink to the .vimrc file in this git repository
 
 To allow you to check out this repository in a sensible
