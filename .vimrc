@@ -24,6 +24,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
+Plugin 'prisma/vim-prisma'
 
 
 
@@ -45,7 +46,7 @@ set fileformat=unix
 set ttymouse=xterm2
 set mouse=n
 
-au BufNewFile,BufRead *.py
+au BufNewFile,BufRead *.py:
     \ set tabstop=4
     \ set softtabstop=4
     \ set shiftwidth=4
@@ -54,7 +55,7 @@ au BufNewFile,BufRead *.py
     \ set autoindent
     \ set fileformat=unix
 
-au BufNewFile,BufRead *.js, *.html, *.css, *.ts, *.tsx, *.jsx
+au BufNewFile,BufRead *.js, *.html, *.css, *.ts, *.tsx, *.jsx:
     \ set tabstop=2
     \ set softtabstop=2
     \ set shiftwidth=2
