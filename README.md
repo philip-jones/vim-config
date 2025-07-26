@@ -40,6 +40,8 @@ ln -s ~/path/to/this/repo/.inputrc
 
 # Install Vundle (Vim Plugin Manager)
 
+Bit of bootstrapping - need to manually install the plugin manager...
+
 ```bash
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
@@ -71,7 +73,9 @@ git clone --depth=1 https://github.com/github/copilot.vim.git \
 Then set up / log in to Copilot on Github.
 Start up vim then call `:Copilot setup`
 
-# Notes on Vim / Git plugin "fugitive".
+# Notes on Plugins
+
+## Git plugin "vim-fugitive"
 
 Fugitive is a Git wrapper for Vim, works really well.
 
@@ -80,4 +84,47 @@ You can do any normal git command using `:Git` such as:
 ```vim
 :Git status
 ```
+
+## Global search plugin "ctrlp"
+
+Provides ability to find files anywhere in the current directory.
+
+In normal mode, `CTRL-P` as the name suggests and start typing...
+
+## File Browser nerdtree
+
+Part of the setup to turn vim into an IDE.  
+
+Press ? in the NERDTree window to learn how to use it.  It's worth it.
+(? toggles nicely, so just hit ? again to hide the help)
+
+## vim-surround
+
+I've not started using it yet.  I intend to learn this one as it looks
+like a significant coding productivity tool and is a standard feature 
+in many modern IDEs:
+
+[vim-surround](https://github.com/tpope/vim-surround)
+
+## vim-gitgutter
+
+Not used this yet.  Allows git diff within vim:
+
+[vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
+## identpython
+
+Enabling pep-8 compatible python:
+
+[vim-scripts/identpython.vim](https://github.com/vim-scripts/indentpython.vim)
+
+## YouCompleteMe
+
+Excellent [tab] code completion.
+
+
+
+
+
+
 
