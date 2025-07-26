@@ -130,6 +130,12 @@ Runs the currently open file through Flake8, a static syntax and style checker f
 
 [vim-flake8](https://github.com/nvie/vim-flake8)
 
+Make sure flake8 is installed and available, the plugin does not do this bit:
+
+```bash
+sudo apt update
+sudo apt install -y flake8
+```
 [Basic usage](https://github.com/nvie/vim-flake8?tab=readme-ov-file#usage)
 
 Summarised as:
