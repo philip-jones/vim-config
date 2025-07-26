@@ -12,11 +12,23 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Add all your plugins here (example)
+
+" Git wrapper
 Plugin 'tpope/vim-fugitive'
+
+" Surround code automatically
 Plugin 'tpope/vim-surround'
+
+" Git diff plugin
 Plugin 'airblade/vim-gitgutter'
+
+" Python pep-8 formatting
 Plugin 'vim-scripts/identpython.vim'
+
+" Code completion
 Plugin 'Valloric/YouCompleteMe'
+
+" LINTing plugin
 Plugin 'dense-analysis/ale'
 Plugin 'nvie/vim-flake8'
 Plugin 'jnurmine/Zenburn'
