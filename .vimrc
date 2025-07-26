@@ -17,9 +17,6 @@ Plugin 'tpope/vim-fugitive'
 " Surround code automatically
 Plugin 'tpope/vim-surround'
 
-" Git diff plugin
-Plugin 'airblade/vim-gitgutter'
-
 " Python pep-8 formatting
 Plugin 'vim-scripts/identpython.vim'
 
