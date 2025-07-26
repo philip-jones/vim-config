@@ -149,19 +149,12 @@ cd ~/.vim/bundle/YouCompleteMe
 python3 install.py --ts-completer
 ```
 
+## ale
 
-## syntastic
+ALE (Asynchronous Lint Engine) is a plugin providing linting 
+(syntax checking and semantic errors) 
 
-[syntastic](https://github.com/vim-syntastic/syntastic)
+It's relatively complex, so read:
 
-Hmmm.. apparently deprecated in favour of ale, so will be installing that 
-as an upgrade to this setup.
-
-
-
-
-
-
-
-
+[ale](https://github.com/dense-analysis/ale)
 
