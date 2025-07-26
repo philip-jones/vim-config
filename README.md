@@ -118,12 +118,6 @@ in many modern IDEs:
 
 [vim-surround](https://github.com/tpope/vim-surround)
 
-## vim-gitgutter
-
-Not used this yet.  Allows git diff within vim:
-
-[vim-gitgutter](https://github.com/airblade/vim-gitgutter)
-
 ## identpython
 
 Enabling pep-8 compatible python:
