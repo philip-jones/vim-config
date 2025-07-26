@@ -130,6 +130,20 @@ Enabling pep-8 compatible python:
 
 [vim-scripts/identpython.vim](https://github.com/vim-scripts/indentpython.vim)
 
+## flake-8
+
+Runs the currently open file through Flake8, a static syntax and style checker for Python source code.
+
+[vim-flake8](https://github.com/nvie/vim-flake8)
+
+[Basic usage](https://github.com/nvie/vim-flake8?tab=readme-ov-file#usage)
+
+Summarised as:
+
+1. Open python file
+2. Press `<F7>` to run flake8 on the file
+3. Press `[Enter]` to jump to the next error
+
 ## YouCompleteMe
 
 Excellent [tab] code completion.
