@@ -143,7 +143,7 @@ Python 3 seems to be available regardless:
 
 ```bash
 sudo apt update
-sudo apt install build-essential cmake3 python3-dev
+sudo apt install build-essential cmake python3-dev
 
 cd ~/.vim/bundle/YouCompleteMe
 python3 install.py --ts-completer
