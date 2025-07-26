@@ -29,7 +29,9 @@ for example:
 
 ```bash
 cd
-ln -s ~/path/to/this/repo/.vimrc ~/.vimrc
+ln -s ~/path/to/this/repo/.vimrc
+ln -s ~/path/to/this/repo/.tmux.coonf
+ln -s ~/path/to/this/repo/.inputrc
 ```
 
 # Install Vundle (Vim Plugin Manager)
