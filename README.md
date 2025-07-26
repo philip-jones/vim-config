@@ -126,6 +126,19 @@ Enabling pep-8 compatible python:
 
 Excellent [tab] code completion.
 
+[YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+
+Does require some setup for each language.
+
+## syntastic
+
+[syntastic](https://github.com/vim-syntastic/syntastic)
+
+Hmmm.. apparently deprecated in favour of ale, so will be installing that 
+as an upgrade to this setup.
+
+
+
 
 
 
