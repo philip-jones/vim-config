@@ -30,7 +30,11 @@ for example:
 ```bash
 cd
 ln -s ~/path/to/this/repo/.vimrc
+
+# Set up tmux to work well with vim and not change the background colour
 ln -s ~/path/to/this/repo/.tmux.coonf
+
+# Enable vim shortcuts in the terminal
 ln -s ~/path/to/this/repo/.inputrc
 ```
 
@@ -79,13 +83,5 @@ mkdir -p ~/.vim/pack/tpope/start
 cd ~/.vim/pack/tpope/start
 git clone https://tpope.io/vim/fugitive.git
 vim -u NONE -c "helptags fugitive/doc" -c q
-
 ```
 
-# To enable vim shortcuts in the terminal
-
-Edit the file `~/.inputrc` and add the following line:
-
-```bash
-set editing-mode vi
-```
