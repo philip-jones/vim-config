@@ -64,6 +64,9 @@ git clone --depth=1 https://github.com/github/copilot.vim.git \
   ~/.vim/pack/github/start/copilot.vim
 ```
 
+Then set up / log in to Copilot on Github.
+Start up vim then call `:Copilot setup`
+
 # Install Vim / Git plugin "fugitive".
 
 Fugitive is a Git wrapper for Vim, allowing you to run Git commands.
