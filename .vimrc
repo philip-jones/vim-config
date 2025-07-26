@@ -11,8 +11,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" Add all your plugins here (example)
-
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
 
@@ -30,12 +28,26 @@ Plugin 'Valloric/YouCompleteMe'
 
 " LINTing plugin
 Plugin 'dense-analysis/ale'
+
+" Run Python from vim
 Plugin 'nvie/vim-flake8'
+
+" Colour scheme
 Plugin 'jnurmine/Zenburn'
+
+" Colour scheme
 Plugin 'altercation/vim-colors-solarized'
+
+" Status line at the bottom of the vim window
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+
+" NERDTree file browser
 Plugin 'scrooloose/nerdtree'
+
+" Global search using CTRL-P
 Plugin 'kien/ctrlp.vim'
+
+" Syntax formatting for prisma schema file
 Plugin 'prisma/vim-prisma'
 
 
