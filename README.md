@@ -42,6 +42,10 @@ ln -s ~/path/to/this/repo/.inputrc
 
 Bit of bootstrapping - need to manually install the plugin manager...
 
+You can read more here:
+
+[Vundle.vim.git](https://github.com/VundleVim/Vundle.vim)
+
 ```bash
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
