@@ -44,6 +44,19 @@ Then fire up vim and run the command `:PluginInstall` to install the plugins
 
 # Install Github Copilot plugin 
 
+The Copilot plugin requires that node is a recent version.
+
+Install & set the default version of node using nvm such as:
+
+```bash
+nvm list-remote
+
+# Select the latest stable (LTS) version, then install and set to default:
+
+nvm install 22.17.1
+nvm alias default 22.17.1
+```
+
 [Copilot in Github](https://github.com/github/copilot.vim)
 
 ```bash
