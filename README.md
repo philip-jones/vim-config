@@ -50,7 +50,15 @@ You can read more here:
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-Then fire up vim and run the command `:PluginInstall` to install the plugins
+Then fire up vim and run the command 
+
+`:PluginInstall` 
+
+to install the plugins.
+
+In the event any plugins are removed, run
+
+`:PluginClean`
 
 # Install Github Copilot plugin 
 
